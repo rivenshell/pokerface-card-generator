@@ -6,7 +6,18 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = function() {
-  // Random card generator
+  let number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  let suite = ["♦", "♥", "♠", "♣"];
+
+  function shuffle(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  let count = shuffle(number);
+  let symbol = shuffle(suite);
+
+  let result = count + symbol;
+  document.getElementById("logic").innerHTML = result;
 
   console.log("Random number");
 };
