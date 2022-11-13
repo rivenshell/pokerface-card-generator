@@ -16,8 +16,11 @@ window.onload = function() {
   let count = shuffle(number);
   let symbol = shuffle(suite);
 
-  let result = count + symbol;
+  let result = count;
   document.getElementById("logic").innerHTML = result;
+
+  let newresult = symbol;
+  document.getElementById("suitesymbol").innerHTML = newresult;
 
   console.log("Random number");
 };
