@@ -4,7 +4,7 @@ body {
   background-color: green;
 }
 
-.spade {
+/* .spade {
 }
 
 .dimond {
@@ -14,5 +14,30 @@ body {
 }
 
 .heart {
+} */
+
+.card {
+  background-color: white;
+  width: min-content;
+  margin: auto;
+  height: 290px;
+  width: 175px;
 }
 
+.body {
+  margin: auto;
+  text-align: center;
+  margin-top: 73px;
+  font-size: xx-large;
+}
+
+logic {
+  font-size: xx-large;
+}
+
+.footer {
+  margin: auto;
+  margin-top: 74px;
+  margin-left: 110px;
+  font-size: 60px;
+}
